@@ -1,0 +1,11 @@
+/*
+
+Summary 
+    1. Try to avoid singletons.
+    2. If you are developing dart,flutter package/plugin then It is OK to create singletons
+       for example FirebaseAuth is a singleton class from firebase_auth plugin
+    3. If you are developing flutter app then it's always good to use dependency injection
+       so that Test cases can be implemented
+
+
+*/   
